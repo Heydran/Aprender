@@ -1,0 +1,51 @@
+.login {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    left: 40vw;
+    top: 10vw;
+    width: 20vw;
+    height: 30vh;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.itensLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.login input {
+    width: 100%;
+}
+
+.login button {
+    all: unset;
+    margin: 10px;
+    background: cyan;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.login button:hover {
+    cursor: pointer;
+    background-color: #044553;
+}
+
+.imgUser {
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+.divImg {
+    right: 0;
+    top: 0;
+}

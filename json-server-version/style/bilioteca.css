@@ -1,0 +1,46 @@
+html {
+    background-color: #044553;
+}
+
+body {
+    margin: 0px;
+    background-color: #259faf;
+    scroll-behavior: smooth;
+}
+
+.bg1 {
+    background-color: #044553;
+    margin-top: 0px;
+    padding: 70px 0px 0px 0px;
+}
+
+.bg2 {
+    background-color: #152636;
+}
+
+
+
+.banners {
+    display: flex;
+    overflow: hidden;
+    background-color: #044553;
+    padding: 20px;
+}
+
+.banners img {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border: 6px ridge #57b8bc;
+    color: white;
+}
+
+.contImg {
+    background-color: #152636;
+    margin-left: 10px;
+}
+
+.contImg:hover {
+    background-color: #259faf;
+    margin-left: 10px;
+}

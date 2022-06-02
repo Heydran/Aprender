@@ -1,0 +1,114 @@
+{
+  "jogos": [
+    {
+      "id": 1,
+      "nome": "Minecraft",
+      "generoPrincipal": "SANDBOX",
+      "linkImg": "static/img/Minecraft.png"
+    },
+    {
+      "id": 13,
+      "nome": "Perry",
+      "generoPrincipal": "Perry",
+      "linkImg": "static/img/Perry.png"
+    },
+    {
+      "id": 2,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 3,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 4,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 5,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 6,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 7,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 8,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 9,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 10,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 11,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/EldenRing.png"
+    },
+    {
+      "id": 12,
+      "nome": "Elden Ring",
+      "generoPrincipal": "RPG",
+      "linkImg": "static/img/a.png"
+    },
+    {
+      "nome": "Minecraft",
+      "generoPrincipal": "SANDBOX",
+      "linkImg": "static/img/Minecraft.png",
+      "id": 14
+    },
+    {
+      "nome": "Minecraft",
+      "generoPrincipal": "SANDBOX",
+      "linkImg": "static/img/Minecraft.png",
+      "id": 15
+    },
+    {
+      "nome": "Minecraft",
+      "generoPrincipal": "SANDBOX",
+      "linkImg": "static/img/Minecraft.png",
+      "id": 16
+    },
+    {
+      "nome": "Minecraft",
+      "generoPrincipal": "SANDBOX",
+      "linkImg": "static/img/Perry.png",
+      "id": 17
+    }
+  ],
+  "contas": [
+    {
+      "id": 1,
+      "user": "admin",
+      "pass": "admin",
+      "perm": 10
+    }
+  ]
+}
