@@ -9,3 +9,11 @@ body {
     background-color: #044553;
     color: #044553;
 }
+
+.esconder {
+    display: none;
+}
+
+.btLogout {
+    border: none;
+}
