@@ -12,17 +12,24 @@ function carregarJogos() {
 function escolherBaner(jogo) {
     var banner = document.getElementById(jogo.generoPrincipal)
     if (!banner) {
-        var mural = document.getElementById("mural")
-        mural.innerHTML += `<h1>${jogo.generoPrincipal}</h1>
-        <div id="${jogo.generoPrincipal}" class="container-fluid bg1 banners">
-        </div>
-        `;
+        document.getElementById("ulBilioteca").innerHTML += `
+            <li class="nav-item">
+                <a class="nav-link text-info" href="#div${jogo.generoPrincipal}" target="mainFrame">${jogo.generoPrincipal}</a>
+            </li>`;
+        document.getElementById("mural").innerHTML += `
+        <div id="div${jogo.generoPrincipal}">
+            <h1 ">${jogo.generoPrincipal}</h1>
+            <div id="${jogo.generoPrincipal}" class="container-fluid bg1 banners">
+            </div>
+            </div>`;
+
+        
         var banner = document.getElementById(jogo.generoPrincipal)
     }
-    banner.addEventListener("wheel", (evt) => {
+    /*banner.addEventListener("wheel", (evt) => {
         evt.preventDefault();
         banner.scrollLeft += evt.deltaY;
-    });
+    });*/
     adicionarJogo(jogo, banner)
 }
 

@@ -1,0 +1,17 @@
+body{
+    background-color: #044553;
+}
+.cadastro{
+    color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 20%;
+    border-radius: 15px;
+}
+.cadastro button{
+    margin: 3%;
+}
