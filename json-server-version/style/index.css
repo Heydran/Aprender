@@ -17,7 +17,16 @@ body {
 .btLogout {
     border: none;
 }
+
 .imgPerfil {
     max-width: 50px;
     border-radius: 20px;
+}
+
+.configDM {
+    min-width: 0;
+}
+
+.dropdown:hover .configDM {
+    display: block;
 }

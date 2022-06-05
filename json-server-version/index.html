@@ -18,16 +18,19 @@
     <nav class="navbar navbar-expand-sm bg-dark">
         <div id="painel" class="container-fluid">
             <div style="display: flex;">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="./home.html" target="mainFrame">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="./biblioteca.html" target="mainFrame">Biblioteca</a>
-                </li>
-                <li class="nav-item">
-                    <a id="liCadastroJogo" class="nav-link text-info esconder" href="./cadastrarJogo.html" target="mainFrame">Cadastrar Jogo</a>
-                </li>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="./home.html" target="mainFrame">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="./biblioteca.html" target="mainFrame">Biblioteca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="./bibliotecaSteam.html" target="mainFrame">biblioteca Steam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="liCadastroJogo" class="nav-link text-info esconder" href="./cadastroJogo.html" target="mainFrame">Cadastrar Jogo</a>
+                    </li>
             </div>
             <div style="display: flex;">
                 <li id="liLogin" class="nav-item">
@@ -36,11 +39,15 @@
                 <li id="liImg" class="nav-item esconder">
                     <img id="imgPerfil" class="imgPerfil" src="" alt="">
                 </li>
-                <li id="liUsuario" class="nav-item esconder">
-                    <a id="aUser" class="nav-link text-info" href="./login.html" target="mainFrame">Usuario</a>
-                </li>
                 <li id="liLogout" class="nav-item esconder">
-                    <button onclick="logout()" class="nav-link text-info bg-dark btLogout">Logout</button>
+
+                </li>
+                <li id="liUsuario" class="nav-item dropdown">
+                    <a id="aUser" class="nav-link dropdown-toggle text-info" href="#">Usuario</a>
+                    <ul class="dropdown-menu bg-dark configDM">
+                        <li><button onclick="logout()" class="dropdown-item text-info bg-dark btLogout">Perfil</button></li>
+                        <li><button onclick="logout()" class="dropdown-item text-info bg-dark btLogout">Logout</button></li>
+                    </ul>
                 </li>
             </div>
             </ul>

@@ -112,7 +112,338 @@
         "id": 1,
         "user": "admin",
         "pass": "admin",
-        "img" : "Perry",
+        "img": "Perry",
         "perm": 10
-    }]
+    }],
+    "games": [{
+            "appid": 6880,
+            "name": "Just Cause",
+            "playtime_forever": 0,
+            "img_icon_url": "aeaef41cac61d12ef93cf5eddc86859b1f0c73fa",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        },
+        {
+            "appid": 12120,
+            "name": "Grand Theft Auto: San Andreas",
+            "playtime_forever": 207,
+            "img_icon_url": "895e9391da2b8155989022d9dd95b12e09766375",
+            "playtime_windows_forever": 13,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        },
+        {
+            "appid": 12250,
+            "name": "Grand Theft Auto: San Andreas",
+            "playtime_forever": 0,
+            "img_icon_url": "",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 33910,
+            "name": "Arma 2",
+            "playtime_forever": 21,
+            "img_icon_url": "7fd2d12d3f91ee3e69955121323bb89063ea304e",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 8190,
+            "name": "Just Cause 2",
+            "playtime_forever": 38,
+            "img_icon_url": "73582e392a2b9413fe93b011665a5b9cf26ff175",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 105600,
+            "name": "Terraria",
+            "playtime_forever": 1899,
+            "img_icon_url": "858961e95fbf869f136e1770d586e0caefd4cfac",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 1894,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 34830,
+            "name": "Sniper: Ghost Warrior",
+            "playtime_forever": 0,
+            "img_icon_url": "f2da049032b71ac6a359497fc8379bacbd7c6076",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 207610,
+            "name": "The Walking Dead",
+            "playtime_forever": 0,
+            "img_icon_url": "87a13ae0a2a76488792924aa8bb0dd8a7760f931",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 55230,
+            "name": "Saints Row: The Third",
+            "playtime_forever": 335,
+            "img_icon_url": "ec83645f13643999e7c91da75d418053d6b56529",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 227300,
+            "name": "Euro Truck Simulator 2",
+            "playtime_forever": 233,
+            "img_icon_url": "adc18a4fc9adc0330144b76d61cbda68bb2394a0",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 101,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 109400,
+            "name": "MicroVolts Surge",
+            "playtime_forever": 492,
+            "img_icon_url": "84451152cc2862ca27b9d5e77a3213dc123ec04a",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 211500,
+            "name": "RaceRoom Racing Experience ",
+            "playtime_forever": 15,
+            "img_icon_url": "1a0cf3ab26336c2cfec795f02b02802ddc200f48",
+            "playtime_windows_forever": 15,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 230410,
+            "name": "Warframe",
+            "playtime_forever": 650,
+            "img_icon_url": "22064646470f4c53388ba87774c7ac10f0a91ffa",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 369,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 236390,
+            "name": "War Thunder",
+            "playtime_forever": 224,
+            "img_icon_url": "88259dcb7014dcdb109d9ece0cfc70c100bc2f9c",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 238960,
+            "name": "Path of Exile",
+            "playtime_forever": 69,
+            "img_icon_url": "1110764aac57ac28d7ffd8c43071c75d5482a9c9",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 49,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 243870,
+            "name": "Tom Clancy's Ghost Recon Phantoms - NA",
+            "playtime_forever": 43,
+            "img_icon_url": "7ca714724bfc22fc9601d8b65f65c47f5d4103f3",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 242720,
+            "name": "GunZ 2: The Second Duel",
+            "playtime_forever": 134,
+            "img_icon_url": "9a2d384575e6ecb3ab219716f58516f5b47b2fdb",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 262410,
+            "name": "World of Guns: Gun Disassembly",
+            "playtime_forever": 12,
+            "img_icon_url": "39c2ca5b9be73c728568f1954543e5969ecd2707",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 271290,
+            "name": "HAWKEN",
+            "playtime_forever": 11,
+            "img_icon_url": "c2ff4b2c2652a897935631b040c5ba135fe655e3",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 226320,
+            "name": "Marvel Heroes Omega",
+            "playtime_forever": 0,
+            "img_icon_url": "f9e8431600ea2ac6b15d81bd6c38e63c13ba2bbd",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 253710,
+            "name": "theHunter Classic",
+            "playtime_forever": 0,
+            "img_icon_url": "4a91dc770675e559038a4f46e0daa4f8fa42ee30",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 224580,
+            "name": "Arma 2: DayZ Mod",
+            "playtime_forever": 72,
+            "img_icon_url": "53ab951dfb3b53658da80dbb0f9e199215a0ed47",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 34870,
+            "name": "Sniper Ghost Warrior 2",
+            "playtime_forever": 0,
+            "img_icon_url": "da27c4234c040808171754145b8bb82e837b89ff",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 244850,
+            "name": "Space Engineers",
+            "playtime_forever": 2471,
+            "img_icon_url": "f9856a90000d88e9a89441a7381fe9877e91eaca",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 2471,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 107410,
+            "name": "Arma 3",
+            "playtime_forever": 2259,
+            "img_icon_url": "3212af52faf994c558bd622cb0f360c1ef295a6b",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 16,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 49520,
+            "name": "Borderlands 2",
+            "playtime_forever": 953,
+            "img_icon_url": "a3f4945226e69b6196074df4c776e342d3e5a3be",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 300,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 261430,
+            "name": "AION Free-to-Play",
+            "playtime_forever": 0,
+            "img_icon_url": "55aee1e214ba42b3ce439e578cb1149e6a819ebd",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 263280,
+            "name": "Spintires®",
+            "playtime_forever": 75,
+            "img_icon_url": "6fb95ad2bbca0c7e3dd2d5b4257d5afb8bec341a",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 75,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 367690,
+            "name": "Spintires® - Editor",
+            "playtime_forever": 0,
+            "img_icon_url": "aaaeff6e7f039791c876834f7a93555d764d6d28",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 221100,
+            "name": "DayZ",
+            "playtime_forever": 19915,
+            "img_icon_url": "16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d",
+            "playtime_windows_forever": 11607,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 268850,
+            "name": "EVGA Precision X1",
+            "playtime_forever": 2,
+            "img_icon_url": "226f34f700bcfc9f0df4e5f204feec91f9ffba9c",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 270880,
+            "name": "American Truck Simulator",
+            "playtime_forever": 2864,
+            "img_icon_url": "2aec8af4b4b23cb6054d9aea06194621cdd66945",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 1486,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 271590,
+            "name": "Grand Theft Auto V",
+            "playtime_forever": 70683,
+            "img_icon_url": "1e72f87eb927fa1485e68aefaff23c7fd7178251",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 14889,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 222880,
+            "name": "Insurgency",
+            "playtime_forever": 34,
+            "img_icon_url": "b072fc4239951c1952f4877edde340419438b528",
+            "has_community_visible_stats": true,
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 293180,
+            "name": "Overcast - Walden and the Werewolf",
+            "playtime_forever": 0,
+            "img_icon_url": "15de61599f551de7e6acf299e1813daf6013f8d7",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 295110,
+            "name": "Just Survive",
+            "playtime_forever": 735,
+            "img_icon_url": "62defe57b364721d8947761c9998643ae5afaad1",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 362300,
+            "name": "Just Survive Test Server",
+            "playtime_forever": 0,
+            "img_icon_url": "ae46a0a74a41c21f2d490dde824f552c20920761",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }, {
+            "appid": 433850,
+            "name": "Z1 Battle Royale",
+            "playtime_forever": 460,
+            "img_icon_url": "aee7491abfd812e2fbb4ec3326ad5f4b85c8137a",
+            "playtime_windows_forever": 0,
+            "playtime_mac_forever": 0,
+            "playtime_linux_forever": 0
+        }
+
+    ]
 }
