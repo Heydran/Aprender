@@ -1,7 +1,7 @@
 var logado = localStorage.getItem("Logado")
 
 if (logado == "true") {
-    user =JSON.parse(localStorage.getItem("Usuario"))
+    user = JSON.parse(localStorage.getItem("Usuario"))
     configLogado()
     document.getElementById("aUser").innerHTML = user.user
     document.getElementById("mainFrame").src = "home.html"
@@ -14,7 +14,7 @@ function configLogado() {
     document.getElementById("liLogout").classList.remove("esconder")
     document.getElementById("liImg").classList.remove("esconder")
     document.getElementById("imgPerfil").src = `static/img/${user.img}.png`
-    
+
 }
 
 function logout() {
