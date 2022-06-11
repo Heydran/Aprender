@@ -27,10 +27,10 @@ app.get('/jogos', (req, res) => {
             jogos = []
 
             for (jogo of jsonObject) {
-                console.log(jogo);
                 jogos.push({
                     nome: jogo.name,
-                    link: `https://cdn.akamai.steamstatic.com/steam/apps/${jogo.appID}/header.jpg`
+                    link: `https://cdn.akamai.steamstatic.com/steam/apps/${jogo.appID}/header.jpg`,
+                    appID: jogo.appID
                 })
             }
 
@@ -39,5 +39,5 @@ app.get('/jogos', (req, res) => {
 
 })
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Runing at port: ${port}`)
 })

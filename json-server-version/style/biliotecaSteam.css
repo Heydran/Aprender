@@ -19,14 +19,13 @@ body {
 }
 
 .banners {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #044553;
     padding: 20px;
 }
 
 .banners img {
-    width: 150px;
-    height: 200px;
     margin: 20px;
     border: 6px ridge #57b8bc;
     color: white;
@@ -40,4 +39,8 @@ body {
 .contImg:hover {
     background-color: #259faf;
     margin-left: 10px;
+}
+
+.limpar {
+    all: unset;
 }

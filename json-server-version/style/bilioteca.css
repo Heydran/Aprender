@@ -18,11 +18,9 @@ body {
     background-color: #152636;
 }
 
-
-
 .banners {
     display: flex;
-    overflow: hidden;
+    flex-wrap: wrap;
     background-color: #044553;
     padding: 20px;
 }

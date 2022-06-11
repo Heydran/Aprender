@@ -19,8 +19,12 @@ function escolherBaner(jogo) {
 function adicionarJogo(jogo, banner) {
     banner.innerHTML +=
         `<div class="contImg">
-            <img id="img-${jogo.nome}" src="${jogo.link}">
+        <button class="limpar" onclick="redirect(${jogo.appID})"><img id="img-${jogo.nome}" src="${jogo.link}"></button>
         </div>`
 
 
+}
+
+function redirect(appID) {
+    parent.location.href = `https://store.steampowered.com/app/${appID}`
 }

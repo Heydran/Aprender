@@ -1,240 +1,37 @@
 {
-  "jogos": [
-    {
-      "id": 1,
-      "nome": "Minecraft",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Minecraft.png"
-    },
-    {
-      "id": 13,
-      "nome": "Perry",
-      "generoPrincipal": "Perry",
-      "linkImg": "static/img/Perry.png"
-    },
-    {
-      "id": 2,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 3,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 4,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 5,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 6,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 7,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 8,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 9,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 10,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 11,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/EldenRing.png"
-    },
-    {
-      "id": 12,
-      "nome": "Elden Ring",
-      "generoPrincipal": "RPG",
-      "linkImg": "static/img/a.png"
-    },
-    {
-      "nome": "Minecraft",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Minecraft.png",
-      "id": 14
-    },
-    {
-      "nome": "Minecraft",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Minecraft.png",
-      "id": 15
-    },
-    {
-      "nome": "Minecraft",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Minecraft.png",
-      "id": 16
-    },
-    {
-      "nome": "Minecraft",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Perry.png",
-      "id": 17
-    },
-    {
-      "nome": "Perry",
-      "generoPrincipal": "SANDBOX",
-      "linkImg": "static/img/Perry.png",
-      "id": 18
-    }
-  ],
-  "contas": [
-    {
-      "id": 1,
-      "user": "admin",
-      "pass": "admin",
-      "img": "Perry",
-      "perm": 10
-    },
-    {
-      "user": "andre",
-      "pass": "andre",
-      "img": "Perry",
-      "perm": 0,
-      "id": 2
-    },
-    {
-      "user": "andre",
-      "pass": "andre",
-      "img": "Perry",
-      "perm": 0,
-      "id": 3
-    },
-    {
-      "user": "andre",
-      "pass": "andre",
-      "img": "Perry",
-      "perm": 0,
-      "id": 4
-    }
-  ],
-  "games": [
-    {
-      "appid": 6880,
-      "name": "Just Cause",
-      "playtime_forever": 0,
-      "img_icon_url": "aeaef41cac61d12ef93cf5eddc86859b1f0c73fa",
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 12120,
-      "name": "Grand Theft Auto: San Andreas",
-      "playtime_forever": 207,
-      "img_icon_url": "895e9391da2b8155989022d9dd95b12e09766375",
-      "playtime_windows_forever": 13,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 12250,
-      "name": "Grand Theft Auto: San Andreas",
-      "playtime_forever": 0,
-      "img_icon_url": "",
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 33910,
-      "name": "Arma 2",
-      "playtime_forever": 21,
-      "img_icon_url": "7fd2d12d3f91ee3e69955121323bb89063ea304e",
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 8190,
-      "name": "Just Cause 2",
-      "playtime_forever": 38,
-      "img_icon_url": "73582e392a2b9413fe93b011665a5b9cf26ff175",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 105600,
-      "name": "Terraria",
-      "playtime_forever": 1899,
-      "img_icon_url": "858961e95fbf869f136e1770d586e0caefd4cfac",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 1894,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 34830,
-      "name": "Sniper: Ghost Warrior",
-      "playtime_forever": 0,
-      "img_icon_url": "f2da049032b71ac6a359497fc8379bacbd7c6076",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 207610,
-      "name": "The Walking Dead",
-      "playtime_forever": 0,
-      "img_icon_url": "87a13ae0a2a76488792924aa8bb0dd8a7760f931",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 55230,
-      "name": "Saints Row: The Third",
-      "playtime_forever": 335,
-      "img_icon_url": "ec83645f13643999e7c91da75d418053d6b56529",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 0,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    },
-    {
-      "appid": 227300,
-      "name": "Euro Truck Simulator 2",
-      "playtime_forever": 233,
-      "img_icon_url": "adc18a4fc9adc0330144b76d61cbda68bb2394a0",
-      "has_community_visible_stats": true,
-      "playtime_windows_forever": 101,
-      "playtime_mac_forever": 0,
-      "playtime_linux_forever": 0
-    }
-  ]
+    "jogos": [{
+        "id": 1,
+        "nome": "Minecraft",
+        "generoPrincipal": "SANDBOX",
+        "linkImg": "Minecraft"
+    }],
+    "contas": [{
+            "id": 1,
+            "user": "admin",
+            "pass": "admin",
+            "img": "Perry",
+            "perm": 10
+        },
+        {
+            "user": "andre",
+            "pass": "andre",
+            "img": "Perry",
+            "perm": 0,
+            "id": 2
+        },
+        {
+            "user": "andre",
+            "pass": "andre",
+            "img": "Perry",
+            "perm": 0,
+            "id": 3
+        },
+        {
+            "user": "andre",
+            "pass": "andre",
+            "img": "Perry",
+            "perm": 0,
+            "id": 4
+        }
+    ]
 }
