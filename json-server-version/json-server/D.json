@@ -1,37 +1,26 @@
 {
     "jogos": [{
-        "id": 1,
-        "nome": "Minecraft",
-        "generoPrincipal": "SANDBOX",
-        "linkImg": "Minecraft"
-    }],
-    "contas": [{
             "id": 1,
-            "user": "admin",
-            "pass": "admin",
-            "img": "Perry",
-            "perm": 10
+            "nome": "Minecraft",
+            "generoPrincipal": "SANDBOX",
+            "descricao": "Minecraft é um jogo Sandbox de mundo aberto aonde voce coleta recursos para construir e melhorar seus equipamentos em busca de derrotar o Ender Dragon, tambem possui uma comunidade de modders muito ativa que reinventam a maneira de como jogar o jogo.",
+            "generos": "SandBox, Exploração, Aventura, Ação",
+            "linkImg": "Minecraft"
         },
         {
-            "user": "andre",
-            "pass": "andre",
-            "img": "Perry",
-            "perm": 0,
-            "id": 2
-        },
-        {
-            "user": "andre",
-            "pass": "andre",
-            "img": "Perry",
-            "perm": 0,
-            "id": 3
-        },
-        {
-            "user": "andre",
-            "pass": "andre",
-            "img": "Perry",
-            "perm": 0,
-            "id": 4
+            "id": 2,
+            "nome": "Elden Ring",
+            "generoPrincipal": "Sous Like",
+            "descricao": "Elden Ring é um jogo Souls Like de mundo aberto que você irá explorar para ficar mais forte e derrotar seus inimigos",
+            "generos": "Sous Like, RPG, Exploração, Aventura, Ação",
+            "linkImg": "EldenRing"
         }
-    ]
+    ],
+    "contas": [{
+        "id": 1,
+        "user": "admin",
+        "pass": "admin",
+        "img": "Perry",
+        "perm": 10
+    }]
 }

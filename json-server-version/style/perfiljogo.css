@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background-color: #044553;
+}
+
+.mainDiv {
+    display: flex;
+    margin: 5vw;
+}
+
+.imgJogo {
+    height: 25vw;
+}
+
+.conteudoMD {
+    margin-left: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: #259faf;
+    text-shadow: 1px 1px black;
+    font-size: 2vw;
+}
+
+.gameName {
+    color: #0dcaf0;
+    text-shadow: 2px 2px black;
+    font-size: 4vw;
+}

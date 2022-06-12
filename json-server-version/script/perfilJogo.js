@@ -1,11 +1,11 @@
-function getID(elemento) {
-    document.getElementById(elemento)
-}
-jogo = localStorage.getItem("jogo")
+jogo = JSON.parse(localStorage.getItem("jogo"))
 if (jogo) {
-
+    definirInfoJogo(jogo)
 }
 
-function definirImgMain() {
-    getID("imgMain").src = jogo.link
+function definirInfoJogo(jogo) {
+    document.getElementById("imgMain").src = `static/img/${jogo.linkImg}.png`
+    document.getElementById("nomeJogo").innerHTML = `${jogo.nome}`
+    document.getElementById("textoJogo").innerHTML = `${jogo.descricao}`
+    document.getElementById("generos").innerHTML = `${jogo.generos}`
 }

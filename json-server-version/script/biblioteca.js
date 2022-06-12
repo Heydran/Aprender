@@ -38,14 +38,16 @@ function escolherBaner(jogo) {
 function adicionarJogo(jogo, banner) {
     banner.innerHTML +=
         `<div class="contImg">
-        <button style="all: unset;" onclick="${exportarJogo(${jogo})}"><img id="img-${jogo.id}" src="./static/img/${jogo.linkImg}.png"></button>
+        <button style="all: unset;" onclick="exportarJogo(${jogo.id})"><img id="img-${jogo.id}" src="./static/img/${jogo.linkImg}.png"></button>
         </div>`
 
 }
 
 function exportarJogo(jogo) {
-
-    console.log(JSON.stringify(jogo));
-    localStorage.setItem("jogo", JSON.stringify(jogo))
-
+    fetch(`http://localhost:3000/jogos/${jogo}`)
+        .then(jsonString => jsonString.json())
+        .then(jsonObject => {
+            localStorage.setItem("jogo", JSON.stringify(jsonObject))
+            window.location.href = "perfilJogo.html"
+        })
 }
