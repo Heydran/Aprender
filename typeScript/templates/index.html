@@ -2,14 +2,24 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 
 <body>
-    <input id="nome" type="text">
+    <input id="numero" type="string">
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
 </body>
-<script src="../scripts/index.js"></script>
+
+<script>
+    function calcular() {
+        document.getElementById("resultado").innerHTML = operationX(document.getElementById("numero").value)
+    }
+</script>
+
+
 
 </html>
