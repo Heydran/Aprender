@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-
+    <script src="../scripts/operationX.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 
 <body>
-    <input id="numero" type="string">
+    <input id="calculo" type="string">
     <button onclick="calcular()">Calcular</button>
     <p id="resultado"></p>
 </body>
 
 <script>
     function calcular() {
-        document.getElementById("resultado").innerHTML = operationX(document.getElementById("numero").value)
+        document.getElementById("resultado").innerHTML = operationX(document.getElementById("calculo").value)
     }
 </script>
 

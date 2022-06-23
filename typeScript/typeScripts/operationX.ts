@@ -3,26 +3,26 @@ function operationX(operacao:string): number{
     var operations:string[] = []    
     for(let i:number = 0; i < operacao.length; i++){   
           
-        if (operacao[i] in ["+", "-", "*", "/"]){
-            operations.push(operacao[i+1])
+        if (["+", "-", "*", "/"].includes(operacao[i])){
+            operations.push(operacao[i])
         }
     }
     var numbers = operacao.split(/[+,--,/,*]+/)
     
     var resultado:number = parseInt(numbers[0])
-    console.log(operations);
+    console.log(numbers);
     
-    for (let i in operations){        
+    for(let i:number = 0; i < operations.length; i++){          
         if (operations[i] == "+"){
-            resultado + parseInt(numbers[parseInt(i+1)])
+            resultado = resultado + parseInt(numbers[i+1])
         }else if (operations[i] == "-"){
-            resultado - parseInt(numbers[parseInt(i+1)])
+            resultado = resultado - parseInt(numbers[i+1])
         }else if (operations[i] == "*"){
-            resultado * parseInt(numbers[parseInt(i+1)])
+            resultado = resultado * parseInt(numbers[i+1])
         }else if (operations[i] == "/"){
-            resultado / parseInt(numbers[parseInt(i+1)])
+            resultado = resultado / parseInt(numbers[i+1])
         }
     }
     return resultado
 }
-console.log(operationX("1/2*3-4+5"))
+console.log(operationX("5+5/5+2"))
