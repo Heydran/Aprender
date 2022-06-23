@@ -14,6 +14,7 @@ function logar() {
             }
         })
 }
+document.getElementById("user").focus()
 document.getElementById("pass").addEventListener('keypress', event => {
     if (event.key === "Enter") {
         logar()

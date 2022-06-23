@@ -3,6 +3,10 @@ body {
     background-color: #044553;
 }
 
+.defText {
+    color: #259faf
+}
+
 #imgPerfil {
     width: 10vw;
     height: 10vw;
@@ -13,6 +17,7 @@ body {
 #divPerfil {
     background-color: black;
     display: flex;
+    flex-direction: column;
     width: 40vw;
     margin-left: 30vw;
     height: 70vh;
@@ -20,19 +25,29 @@ body {
     border-radius: 2vw;
 }
 
+.headPerfil {
+    display: flex;
+}
+
 #nomeUsuario {
     color: #259faf;
 }
 
 #infoPerfil {
+    color: #259faf;
     display: flex;
     width: 20vw;
     height: 10vw;
     margin-top: 1vw;
     padding: 2vw;
+    flex-direction: column;
 }
 
 .infoPerfil {
     font-size: 2vw;
     font-weight: bolder;
+}
+
+.infoUsuario {
+    margin: 2vw;
 }
