@@ -37,21 +37,27 @@ class Mammalia extends Animalia{
     }
 }
 
+interface Carnivoro{
+    comida:string
+    digestaoProteina():string
+}
 
-class Felidae extends Mammalia{
+class Felidae extends Mammalia implements Carnivoro{
+    comida:string
     constructor(corPelo:string, dna:string, nome:string, numeroMamas:number){
         super(corPelo, dna, nome, numeroMamas)
+        this.comida = "carne"
     }
     getClasse():string{        
         return `Felidae que herda de ${super.getClasse()}`
     }
     
-    alimentar():string{
-        return "carne"
+    digestaoProteina():string{
+        return "proteina digerida"
     }
 }
 
 var gato = new Felidae("laranja", "01234567890123456789", "gato", 6)
-console.log(gato.alimentar())
+console.log(gato.digestaoProteina())
 console.log(gato.getDna())
 console.log(gato.getClasse())
