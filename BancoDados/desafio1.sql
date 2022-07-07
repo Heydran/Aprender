@@ -1,23 +1,24 @@
-create table Categoria(
-    cod_categoria primary key int auto_increment,
-    nom_categoria varchar(20) not null
+CREATE TABLE Categoria(
+    cod_categoria SERIAL PRIMARY KEY,
+    nom_categoria VARCHAR(20) NOT NULL
 );
 
 
-create table Produto (
-cod_produto primary key int auto_increment,
-desc_produto varchar(20) not null,
-pre_produto float not null,
-cod_categoria int not null,
-foreign key cod_categoria references Categoria(cod_categoria)
+CREATE TABLE Produto (
+	cod_produto PRIMARY KEY INTEGER auto_increment,
+	desc_produto VARCHAR(20) NOT NULL,
+	pre_produto FLOAT NOT NULL,
+	cod_categoria INTEGER NOT NULL,
+	FOREIGN KEY cod_categoria REFERENCES Categoria(cod_categoria)
 );
 
-create table Itens(
-    cod_item primary key int auto_increment,
-    nome_item varchar(20) not null,
-    qnt_itens int not null
-    cod_produto int not null,
-    foreign key cod_produto references Produto(cod_produto)
+CREATE TABLE Itens(
+    cod_item SERIAL PRIMARY KEY,
+    nome_item VARCHAR(20) NOT NULL,
+    qnt_itens INTEGER NOT NULL,
+    cod_produto INTEGER NOT NULL,
+    FOREIGN KEY cod_produto REFERENCES Produto(cod_produto)
 );
 
 
+SELECT desc_produto from Produto as pr INNER JOIN Categoria as ca ON ca.cod_categoria == pr.cod_categoria
