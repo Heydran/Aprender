@@ -3,7 +3,6 @@ CREATE TABLE Categoria(
     nom_categoria VARCHAR(20) NOT NULL
 );
 
-
 CREATE TABLE Produto (
 	cod_produto PRIMARY KEY INTEGER auto_increment,
 	desc_produto VARCHAR(20) NOT NULL,
@@ -19,6 +18,5 @@ CREATE TABLE Itens(
     cod_produto INTEGER NOT NULL,
     FOREIGN KEY cod_produto REFERENCES Produto(cod_produto)
 );
-
 
 SELECT desc_produto from Produto as pr INNER JOIN Categoria as ca ON ca.cod_categoria == pr.cod_categoria
