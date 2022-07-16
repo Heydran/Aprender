@@ -5,43 +5,42 @@ const port = 8080
 const cors = require('cors')
 
 const { Pool, Client } = require('pg')
+const conn = {
+    user: 'postgres',
+    host: 'localhost',
+    database: 'estacionamento',
+    password: '1234',
+    port: 5432,
+}
 
-const db = new DBM.DBManager()
-console.log(db.quary('Cliente'));
 
 app.use(cors())
 
-
-app.get('/consultar/:id', (req, b) => {
-    /*b.header("Access-Control-Allow-Origin", "*");
-    b.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept")*/
-    const client = new Client({
-        user: 'postgres',
-        host: 'localhost',
-        database: 'estacionamento',
-        password: '1234',
-        port: 5432,
-    })
-
+app.get('/consultar', (req, res) => {
+    let client = new Client(conn)
     client.connect()
-    client.query(`SELECT * FROM Cliente WHERE Cliente.cod_cliente = ${req.params.id}`, (err, res) => {
-        var nomes = `Nomes,\n`
-        for (i of res.rows) {
-            nomes += `${i.nom_cliente}, \n`
-        }
-        b.send(res.rows)
+    client.query(`SELECT * FROM Cliente`, (err, qRes) => {
         client.end()
+        res.send(qRes.rows)
     })
 })
 
-app.get('/', (req, b) => {
-    /*b.header("Access-Control-Allow-Origin", "*");
-    b.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept")*/
-    b.send("Salve Nicolas")
+app.get('/consultar/:cod', (req, res) => {
+    let client = new Client(conn)
+    client.connect()
+    client.query(`SELECT * FROM Cliente WHERE Cliente.cod_cliente = ${req.params.cod}`, (err, qRes) => {
+        client.end()
+        res.send(qRes.rows)
+    })
 })
 
-app.get('/c2', (req,res) => {
-    res.send()
+app.get('/cadastrar/:cod/:nome', (req, res) => {
+    let client = new Client(conn)
+    client.connect()
+    client.query(`INSERT INTO Cliente VALUES (${req.params.cod},'${req.params.nome}')`, (err, qRes) => {
+        client.end()
+        res.send("adicionado")
+    })
 })
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
