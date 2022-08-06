@@ -4,7 +4,7 @@ const app = express()
 const port = 8080
 const cors = require('cors')
 
-const { Pool, Client } = require('pg')
+const { Client } = require('pg')
 const conn = {
     user: 'postgres',
     host: 'localhost',

@@ -1,0 +1,12 @@
+{
+    "env":{
+        "PORT":8080,
+        "connOBJ":{
+            "user": "postgres",
+            "host": "localhost",
+            "database": "dbControleSe",
+            "password": "1234",
+            "port": 5432
+        }
+    }
+}

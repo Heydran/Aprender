@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="email" type="text">
+    <input id="senha" type="text">
+    <button onclick="logar()">Logar</button>
+    <button onclick="teste()">teste</button>
+</body>
+<script>
+    function logar(){
+        fetch("http://localhost:8080/usuario/validarLogin",{
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body:JSON.stringify({email:document.getElementById("email").value,
+                    senha:document.getElementById("senha").value})
+        })
+        .then(data => data.json())
+        .then(res => console.log(res))
+    }
+    function teste(){
+        fetch("http://localhost:8080/usuario/consultar")
+        .then(data => data.json())
+        .then(res => console.log(res))
+    }
+</script>
+</html>
