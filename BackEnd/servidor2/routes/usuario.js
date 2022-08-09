@@ -1,6 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const { Client } = require('pg')
+var jwt = require('jsonwebtoken');
+
 const conn = process.env.DATABASE_OBJ
 
 router.get("/consultar",(req,res) =>{
@@ -28,11 +30,9 @@ router.post("/cadastro",(req, res) =>{
 })
 
 router.post("/validarLogin",(req, res) => {
-    return res.send({
-                    email:req.body.email,
-                    senha:req.body.senha})
+    var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
+    return res.send(token)
 })
-
 
 router.put("/editar:id",(req, res) =>{
     res.send(`${req.body.id} ${req.body.nome}`)

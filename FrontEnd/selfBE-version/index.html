@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./scripts/deconded.js"></script>
 </head>
 <body>
     <input id="email" type="text">
     <input id="senha" type="text">
     <button onclick="logar()">Logar</button>
-    <button onclick="teste()">teste</button>
+    <button onclick="decodificar()">teste</button>
 </body>
 <script>
     function logar(){
@@ -19,13 +20,10 @@
             body:JSON.stringify({email:document.getElementById("email").value,
                     senha:document.getElementById("senha").value})
         })
-        .then(data => data.json())
-        .then(res => console.log(res))
+        .then(data => data)
+        .then(res => console.log(`jwt_decode(${res})`))
     }
     function teste(){
-        fetch("http://localhost:8080/usuario/consultar")
-        .then(data => data.json())
-        .then(res => console.log(res))
     }
 </script>
 </html>
